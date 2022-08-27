@@ -18,6 +18,17 @@
             android:orientation="vertical">
 
             <EditText
+                android:id="@+id/editTextTextPersonName"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:inputType="textPersonName"
+                android:text="VEHICULO"
+                android:textAlignment="center"
+                android:textSize="24sp"
+                android:textStyle="bold" />
+
+            <EditText
                 android:id="@+id/etplaca"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
@@ -59,6 +70,8 @@
                 android:id="@+id/cbactivo"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
+                android:checked="false"
+                android:enabled="false"
                 android:layout_marginTop="20dp"
                 android:layout_marginBottom="20dp"
                 android:text="Activo" />
@@ -76,6 +89,7 @@
                     android:layout_marginEnd="10dp"
                     android:layout_marginBottom="20dp"
                     android:layout_weight="1"
+                    android:backgroundTint="#ED296C"
                     android:onClick="Guardar"
                     android:text="Guardar" />
 
@@ -87,6 +101,8 @@
                     android:layout_marginTop="25dp"
                     android:layout_marginBottom="20dp"
                     android:layout_weight="1"
+                    android:backgroundTint="#ED296C"
+                    android:onClick="Consultar"
                     android:text="Consultar" />
 
             </LinearLayout>
@@ -103,6 +119,7 @@
                     android:layout_height="wrap_content"
                     android:layout_marginEnd="10dp"
                     android:layout_weight="1"
+                    android:backgroundTint="#ED296C"
                     android:text="Anular" />
 
                 <Button
@@ -111,6 +128,7 @@
                     android:layout_height="wrap_content"
                     android:layout_marginStart="10dp"
                     android:layout_weight="1"
+                    android:backgroundTint="#ED296C"
                     android:text="Cancelar" />
             </LinearLayout>
 
@@ -120,6 +138,7 @@
                 android:layout_height="wrap_content"
                 android:layout_marginTop="45dp"
                 android:layout_marginBottom="20dp"
+                android:backgroundTint="#B6144B"
                 android:onClick="Regresar"
                 android:text="Regresar" />
 

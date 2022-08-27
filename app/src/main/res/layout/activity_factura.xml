@@ -19,6 +19,8 @@
                 android:id="@+id/etcodigo"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                android:layout_marginBottom="20dp"
                 android:ems="10"
                 android:hint="Codigo"
                 android:inputType="textPersonName" />
@@ -27,6 +29,8 @@
                 android:id="@+id/etfecha"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                android:layout_marginBottom="20dp"
                 android:ems="10"
                 android:hint="Fecha"
                 android:inputType="textPersonName" />
@@ -35,6 +39,8 @@
                 android:id="@+id/etplacaf"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                android:layout_marginBottom="20dp"
                 android:ems="10"
                 android:hint="Placa"
                 android:inputType="textPersonName" />
@@ -43,6 +49,8 @@
                 android:id="@+id/cbactivof"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                android:layout_marginBottom="20dp"
                 android:text="Activo" />
 
             <LinearLayout
@@ -54,6 +62,10 @@
                     android:id="@+id/button3"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginTop="20dp"
+                    android:layout_marginEnd="10dp"
+                    android:layout_marginBottom="10dp"
                     android:layout_weight="1"
                     android:text="Button" />
 
